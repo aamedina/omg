@@ -1,7 +1,19 @@
 {:vocab  {:sc/create-fn net.wikipunk.rdf/map->UniversalTranslator
           :init-ns      net.wikipunk.temple.init
           :ns-prefix    "net.wikipunk.rdf."
-          :boot         [net.wikipunk.omg.boot/omg]
+          :boot         [net.wikipunk.omg.boot/sm                         
+                         net.wikipunk.omg.boot/cmns-av
+                         net.wikipunk.omg.boot/lcc-cr
+                         net.wikipunk.omg.boot/lcc-lr
+                         net.wikipunk.omg.boot/lcc-m49
+                         net.wikipunk.omg.boot/lcc-3166-1
+                         net.wikipunk.omg.boot/lcc-3166-2
+                         net.wikipunk.omg.boot/lcc-639-1
+                         net.wikipunk.omg.boot/lcc-639-2
+                         net.wikipunk.omg.boot/lcc-3166-2-ca
+                         net.wikipunk.omg.boot/lcc-3166-2-gb
+                         net.wikipunk.omg.boot/lcc-3166-2-mx
+                         net.wikipunk.omg.boot/lcc-3166-2-us]
           :config       {:xtdb/index-store
                          {:kv-store
                           {:xtdb/module xtdb.lmdb/->kv-store
