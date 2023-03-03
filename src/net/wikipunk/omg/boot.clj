@@ -70,6 +70,12 @@
    :rdfa/uri         "https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-US/"
    :rdf/type         :rdfa/PrefixMapping})
 
+(def lcc-3166-2-ch
+  {:dcat/downloadURL "https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH.rdf"
+   :rdfa/prefix      "lcc-3166-2-ch"
+   :rdfa/uri         "https://www.omg.org/spec/LCC/Countries/Regions/ISO3166-2-SubdivisionCodes-CH/"
+   :rdf/type         :rdfa/PrefixMapping})
+
 (def omg
   {:rdf/type    :rdfa/PrefixMapping
    :rdfa/uri    "https://wikipunk.net/omg/"
