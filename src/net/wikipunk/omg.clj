@@ -11,7 +11,9 @@
    [net.wikipunk.rdf.gleif-L2]
    [net.wikipunk.rdf.gleif-elf]
    [net.wikipunk.rdf.gleif-ra]
-   [net.wikipunk.rdf.gleif-repex]))
+   [net.wikipunk.rdf.gleif-repex]
+   [net.wikipunk.rdf.gleif-L1-data]
+   [net.wikipunk.rdf.gleif-L2-data]))
 
 (defrecord OMG []
   com/Lifecycle

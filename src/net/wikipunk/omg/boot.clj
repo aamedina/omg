@@ -110,3 +110,13 @@
    :rdfa/uri "https://rdf.gleif.org/ontology/ReportingException/"
    :rdfa/prefix "gleif-repex"
    :rdf/type :rdfa/PrefixMapping})
+
+(def gleif-L1-data
+  {:rdfa/prefix "gleif-L1-data"
+   :rdfa/uri    "https://rdf.gleif.org/L1/"
+   :rdf/type    :rdfa/PrefixMapping})
+
+(def gleif-L2-data
+  {:rdfa/prefix "gleif-L2-data"
+   :rdfa/uri    "https://rdf.gleif.org/L2/"
+   :rdf/type    :rdfa/PrefixMapping})
