@@ -74,3 +74,39 @@
   {:rdf/type    :rdfa/PrefixMapping
    :rdfa/uri    "https://wikipunk.net/omg/"
    :rdfa/prefix "omg"})
+
+(def gleif-base
+  {:dcat/downloadURL "https://lov.linkeddata.es/dataset/lov/vocabs/gleif-base/versions/2019-07-11.n3"
+   :rdfa/uri "https://www.gleif.org/ontology/Base/"
+   :rdfa/prefix "gleif-base"
+   :rdf/type :rdfa/PrefixMapping})
+
+(def gleif-L1
+  {:dcat/downloadURL "https://lov.linkeddata.es/dataset/lov/vocabs/gleif-L1/versions/2019-02-01.n3"
+   :rdfa/uri "https://rdf.gleif.org/ontology/L1/"
+   :rdfa/prefix "gleif-L1"
+   :rdf/type :rdfa/PrefixMapping})
+
+(def gleif-L2
+  {:dcat/downloadURL "https://lov.linkeddata.es/dataset/lov/vocabs/gleif-L2/versions/2019-02-01.n3"
+   :rdfa/uri "https://rdf.gleif.org/ontology/L2/"
+   :rdfa/prefix "gleif-L2"
+   :rdf/type :rdfa/PrefixMapping})
+
+(def EntityLegalForm
+  {:dcat/downloadURL "https://lov.linkeddata.es/dataset/lov/vocabs/gleif-elf/versions/2019-02-01.n3"
+   :rdfa/uri "https://rdf.gleif.org/ontology/EntityLegalForm/"
+   :rdfa/prefix "gleif-elf"
+   :rdf/type :rdfa/PrefixMapping})
+
+(def RegistrationAuthority
+  {:dcat/downloadURL "https://lov.linkeddata.es/dataset/lov/vocabs/gleif-ra/versions/2019-02-01.n3"
+   :rdfa/uri "https://rdf.gleif.org/ontology/RegistrationAuthority/"
+   :rdfa/prefix "gleif-ra"
+   :rdf/type :rdfa/PrefixMapping})
+
+(def ReportingException
+  {:dcat/downloadURL "https://lov.linkeddata.es/dataset/lov/vocabs/gleif-repex/versions/2019-02-01.n3"
+   :rdfa/uri "https://rdf.gleif.org/ontology/ReportingException/"
+   :rdfa/prefix "gleif-repex"
+   :rdf/type :rdfa/PrefixMapping})
