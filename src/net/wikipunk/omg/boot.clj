@@ -11,6 +11,31 @@
    :rdfa/uri    "https://www.omg.org/spec/Commons/AnnotationVocabulary/"
    :rdf/type    :rdfa/PrefixMapping})
 
+(def cmns-col
+  {:rdfa/prefix "cmns-col"
+   :rdfa/uri    "https://www.omg.org/spec/Commons/Collections/"
+   :rdf/type    :rdfa/PrefixMapping})
+
+(def cmns-cxtdsg
+  {:rdfa/prefix "cmns-cxtdsg"
+   :rdfa/uri    "https://www.omg.org/spec/Commons/ContextualDesignators/"
+   :rdf/type    :rdfa/PrefixMapping})
+
+(def cmns-dsg
+  {:rdfa/prefix "cmns-dsg"
+   :rdfa/uri    "https://www.omg.org/spec/Commons/Designators/"
+   :rdf/type    :rdfa/PrefixMapping})
+
+(def cmns-dt
+  {:rdfa/prefix "cmns-dt"
+   :rdfa/uri    "https://www.omg.org/spec/Commons/DatesAndTimes/"
+   :rdf/type    :rdfa/PrefixMapping})
+
+(def cmns-txt
+  {:rdfa/prefix "cmns-txt"
+   :rdfa/uri    "https://www.omg.org/spec/Commons/TextDatatype/"
+   :rdf/type    :rdfa/PrefixMapping})
+
 (def lcc-cr
   {:rdfa/uri    "https://www.omg.org/spec/LCC/Countries/CountryRepresentation/"
    :rdfa/prefix "lcc-cr"
